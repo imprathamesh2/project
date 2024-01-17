@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Sai decorators and caterers</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<head>
+  <div class="container">
+    <h1>Om Sai Decorators & Caterers</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">DECORATIONS</a></li>
+            <li><a href="registration.php">register</a></li>
+            <li><a href="login.php">Login</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="slideshow-container">
+  <!-- Add images to the horizontal slideshow -->
+  <img src="hdecor1.jpeg" alt="Image 1">
+  <img src="hdecor2.jpeg" alt="Image 2">
+  <img src="hdecor3.jpeg" alt="Image 3">
+  <img src="hdecor4.jpeg" alt="Image 4">
+  <!-- Add more images as needed -->
+</div>
+<script>
+  var slideInterval = 4000; // Change image every 3 seconds
+
+  var container = document.getElementById('slideshow-container');
+  var images = container.getElementsByTagName('img');
+  var currentImageIndex = 0;
+
+  function showNextImage() {
+      images[currentImageIndex].style.display = 'none';
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      images[currentImageIndex].style.display = 'block';
+  }
+
+  setInterval(showNextImage, slideInterval);
+</script>
+
+<div class="dropdown">
+</head>
+<body style="background-color:floralwhite;">
+<p style="text-align:center;color:red;font-size:30px;font-family:kristen ITC;"><b>About Us</b></p>
+<hr style="color:red;background-color:white;height:3px">
+<p style="text-align:center;color:black;font-size:20px;"> Om Sai decorators & caterers,Thane is a lavish venue that offers a couple of banquet halls. It is ideal for hosting weddings, reception, and pre-wedding ceremonies, and even for small functions like birthdays, anniversaries and family get-togethers. The halls are adorned with resplendent chandeliers, arrant ceiling lights, and dazzling marble floors giving the halls an opulent look. The decor team at Banquets, Mumbai enhances the grace and elegance of the venue, giving your special events get the stunning backdrop that they deserve. The venue serves scrumptious vegetarian food to their guests.provides complimentary changing rooms as well as rooms offering a comfortable stay, so you don't have to worry about arranging separate accommodation for your outstation guests. Go ahead and book Banquets, for your upcoming events to make the grand success.</p> 
+<p style="text-align:center;color:red;font-size:50px;font-family:kristen ITC;"><b>Services</b></p>
+<img src="gallery.jpg" alt="om sai"style="width:1500px;height:800px;">
+<p style="text-align:center;color:red;font-size:50px;font-family:kristen ITC;"><b>Why Choose Us?</b></p>
+
+<p style="text-align:center;color:black;font-size:20px;">We offers a great service in the All Kinds of Food Provided by the Venue, Halls are Air Conditioned, Decor Provided by the Venue & Ample Parking.</p>
+</p>
+<p style="text-align:center;color:black;font-size:30px;font-family:kristen ITC;">Excellent Services<br>      Clean working<br>               Quality and Reliability</p>
+
+</body>
+</html>
+
+

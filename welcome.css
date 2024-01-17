@@ -1,0 +1,126 @@
+#slideshow-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+img {
+    width: 1500px; /* Make images fill the horizontal space */
+    height: 600px;
+    display: block;
+}
+
+/* Remove margin between adjacent images */
+img + img {
+    margin-left: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: monotype corsiva;
+    font-size: 55px;
+}
+.navbar ul li{
+    
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 1s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: orangered;
+    padding: 4px;
+    transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+    font-size: 18px;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 49%;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
